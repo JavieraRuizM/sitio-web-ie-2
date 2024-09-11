@@ -5,6 +5,7 @@
   font-family: 'Open Sans', sans-serif; /* Define 'Open Sans' como la fuente base */
 }
 
+
 html, body { /* Estilos para el html y el body */
     margin: 0; /* Elimina el margen por defecto */
     padding: 0; /* Elimina el padding por defecto */
@@ -38,7 +39,7 @@ main { /* Estilo para el elemento main */
 h1 { /* Estilo para el título h1 */
     font-size: 4em; /* Tamaño de fuente grande (4em) */
     font-weight: bold; /* Fuente en negrita */
-    color: #F87A05; /* Color naranja */
+    color: #0e00cf; /* Color naranja */
 }
 
 h2 { /* Estilo para subtítulos h2 */
