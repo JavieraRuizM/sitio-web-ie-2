@@ -107,6 +107,30 @@ button:hover { /* Estilo hover para los botones */
     font-weight: bold; /* Mantiene el texto en negrita */
 }
 
+.slider {
+    width: 100%;
+    max-width: 600px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    scroll-behavior: smooth;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+
 @media (max-width: 900px) { /* Estilo responsivo para pantallas pequeñas */
     main { /* Ajustes en el elemento main */
         display: grid; /* Activa el grid layout */
