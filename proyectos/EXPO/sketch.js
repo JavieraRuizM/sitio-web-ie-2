@@ -25,6 +25,10 @@ function draw() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 class Flower {
   constructor(r, pts, f_amp, period, speed) {
     this.x = [];
